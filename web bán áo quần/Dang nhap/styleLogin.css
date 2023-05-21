@@ -1,0 +1,281 @@
+
+
+.header{
+  height: 423px;
+}
+
+.inputsearch{
+    width: 320px;
+    height: 40px;
+    border: none;
+
+}
+.button__search{
+    width: 80px;
+    border: none;
+}
+.header__search{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color: none;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    
+}
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+    input[type=text], input[type=password] {
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  
+  /* Set a style for all buttons */
+  .button__login1 {
+    background-color: #da5000;
+    width: 50%;
+    height: 250px;
+    border-radius: 20px;
+    border: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top:430px;
+    cursor: pointer;
+    font-size: 40px;
+    left: 25%;
+    
+
+  }
+  .button__login1:hover{
+    border-radius: 30% ;
+    box-shadow: 3px 20px 20px rgb(0, 0, 0);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    color: black;
+
+  }
+  .material-icons{
+    cursor: pointer;
+  }
+  .loginelse{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+
+  }
+  .loginelse__item{
+    width: 45%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+    align-items: center;
+    background-color: #ffffff;
+    border: none;
+
+    
+  }
+  .login__facebook{
+    text-decoration: none;
+    color: cornflowerblue;
+    
+
+    
+  }
+  .login__google{
+    color: red;
+     text-decoration: none;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .inputName{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+  }
+  .inputpassword{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: 100px;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    
+    
+    padding: 10px 18px;
+    background-color: #ce1b0e;
+    
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    margin-bottom: 10px;
+    background-color:none;
+    height: 100px;
+    width:  80%;
+    margin: 0 auto;
+    
+  }
+  .container1{
+    display: flex;
+    flex-direction: column;
+    height: calc(100px + 220px);
+  }
+  .container2{
+    background-color: #7d7d7d;
+    margin-left: 0;
+    width: auto;
+
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+  }
+  .animate1{
+    color: #f36208;
+    text-align: center;
+    font-size: 15px;
+    padding-top: none;
+    font-family:Arial, Helvetica, sans-serif;
+    
+  }
+  .animate2{
+    color: #f36208;
+    text-align: center;
+    padding-top: -20px;
+    font-size: 30px;
+    padding-bottom: -20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+  }
+  .button__login{
+    width: auto;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    position: absolute;
+    top:100px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #bebebe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #bebebe;
+    border-radius: 20px;
+    width: 60%; 
+    position: relative;
+    /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 15px;
+    top: 0;
+    color: #646464;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .submit{
+    width: auto;
+    height: calc(100px - 60px);
+    color: white;
+    border : none;
+    border-radius: 10px;
+    background-color:rgb(99, 99, 99);
+    cursor: pointer;
+
+  }
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+    
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }

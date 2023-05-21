@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VT Shop Men</title>
+    <link rel="stylesheet" type="text/css" href="../sản phẩm mới.html/styleSanPhamMoi.css">
+    <link rel="stylesheet" type="text/css" href="styleLogin.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__menu">
+            <div class="menu__button menu__button1">
+                
+                <div class="button"> 
+                    <button class="button__text"<form action="" method="post">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="alert alert-info">
+                              <strong>'Trang đăng nhập'</strong>
+                            </div>
+                        
+                            <div class="panel panel-primary">
+                                <div class="panel-body">
+                                    <div class="form-group">
+                                        <label for="email">Tài khoản:</label>
+                                        <input type="text" class="form-control" name="user_name_lg" placeholder="Nhập tên đăng nhập...">
+                                    </div>
+                        
+                                    <div class="form-group">
+                                        <label for="pwd">Mật khẩu:</label>
+                                        <input type="password" class="form-control" name="passlg" placeholder="Nhập mật khẩu..." required>
+                                    </div>
+                        
+                                    <button type="submit" class="btn btn-default" name="dangnhap">'Đăng nhập'</button>
+                                </div>
+                            </div>
+                        </div>
+                        </form>
+                        <a class="button__text1" href="#">Trang Chủ</a></button>
+                    <i class="material-icons">home</i>
+                </div>
+                <div class="button"> 
+                    <button class="button__text"><a class="button__text1" href="/sản phẩm mới.html/sanPhamMoi.html">Sản phẩm mới</a></button>
+                    <i class="material-icons">whatshot</i>
+                </div>
+                <div class="button"> 
+                    <button class="button__text">
+                        
+                        <a class="button__text1" href="#">Giở Hàng<i class="material-icons">shopping_cart</i></a></button>
+                        
+                    
+                </div>
+                
+            </div>
+            <div class="menu__button menu__button2">
+                <button class="button__text"> <a class="button__text1" href="#">Thông Báo</a></button>
+                <button class="button__text"> <a class="button__text1" href="/Dang nhap/dangnhap.html">Đăng Nhập</a></button>
+                <button class="button__text"> <a class="button__text1"href="#">Đăng Ký</a></button>
+
+                
+            </div>
+
+        </div>
+        <div class="header__logo">
+            <img src="/icons/logo_VT-removebg-preview.png" class="logo">
+            <h3 class="nameShop" style="color: rgb(255, 255, 255)">VT SHOP MEN</h3>
+            <h5 class="phuDe" style="color: rgb(238, 124, 71)">PHONG CÁCH ĐẶC BIỆT</h5>
+        </div>
+       
+    </header>
+    <main class="main">
+        <button class="button__login1" onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+<!-- The Modal -->
+        <div id="id01" class="modal">
+        
+
+  <!-- Modal Content -->
+        <form class="modal-content animate" action="/Dang nhap/reg.php" method="post">
+            <span onclick="document.getElementById('id01').style.display='none'"
+            class="close" title="Close Modal">&times;</span>
+            <h3 class="animate1">XIN CHÀO QUÝ KHÁCH</h3>
+            <div class="imgcontainer">
+
+                <img src="/icons/logo_VT-removebg-preview.png" alt="Avatar" class="avatar">
+            </div>
+            <h1 class="animate2">ĐĂNG NHẬP TÀI KHOẢN</h1>
+
+            <div class="container container1">
+                <div class="inputName">
+                    <label  for="uname"><b>Họ Tên</b></label>
+                    <input type="text" placeholder="Nhập Họ tên" name="username" required>
+
+
+                </div>
+                <div class="inputpassword">
+                    <label for="psw"><b>Mật khẩu</b></label>
+                    <input type="password" placeholder="Nhập mật khẩu" name="password" required>
+
+
+                </div>
+                <div class="inputSubmit">
+                    <input class="submit" value="Đăng nhập" name="btn-reg" type="submit"></input>
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember"> Lưu tài khoản
+                    </label>
+
+                </div>
+                <div class="loginelse">
+                    <button class="loginelse__item"><a href="https://www.facebook.com/" class="login__facebook"><strong>Facebook</strong></a></button>
+                    <button class="loginelse__item"><a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" class="login__google"><strong>Google</strong></a></button>
+                </div>
+            
+            
+            
+            </div>
+
+            <div class="container container2" style="background-color:none">
+                <button type="button1" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Thoát</button>
+                <span class="psw"> Quên <a href="#">mật khẩu?</a></span>
+            </div>
+        </form>
+    </div>
+    </main>
+
+</body>
+
+

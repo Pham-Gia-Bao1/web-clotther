@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(212, 212, 212);
+    
+}
+button{
+    color: white;
+}
+
+
+.header{
+    width: 100%;
+    background-color:blueviolet ;
+    color: white;
+    
+    text-decoration: none;
+    
+
+}
+
+.header__menu{
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+
+    justify-content: space-between;
+    
+}
+.menu__button{
+    display: flex;
+    
+    flex-wrap: nowrap;
+    text-decoration: none;
+    padding: 20px ;
+
+
+}
+.menu__button2{
+    
+    color: brown;
+    text-decoration: none;
+
+    
+
+}
+.button{
+    
+    display: inline-flex;
+    text-decoration: none;
+    outline: none;
+
+    
+    
+
+}
+.material-icons{
+    cursor: pointer;
+    
+    
+}
+.material-icons:hover{
+    color: rgb(255, 119, 0);
+    
+}
+
+.button__text{
+    flex-wrap: nowrap;
+    text-overflow: clip;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.button__text1{
+    text-decoration: none;
+    outline: none;
+    color: rgb(247, 247, 247);
+    
+}
+.bu
+
+.button__text1:hover{
+    color: rgb(255, 119, 0);
+}
+.button__text:hover{
+    color: rgb(255, 119, 0);
+
+
+}
+.header__logo{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo{
+    width: 300px;
+    height: auto;
+    min-width: 100px;
+
+}
+.nameShop{
+    font-size: 60px;
+    margin:0;
+   
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.phuDe{
+    position: absolute;
+    top : 370px;
+    font-size: 20px;
+    margin: 0;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.header__search{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color: none;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    
+}
+.input{
+    width: 320px;
+    height: 40px;
+    border: none;
+
+    
+    
+}
+.button__search{
+    width: 80px;
+    border: none;
+}
+.main{
+    width: 100%;
+    height: auto;
+
+}
+.container{
+    display: flex;
+    border: 3px;
+    
+    overflow-x:hidden;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+    
+    
+    
+    
+
+}
+.container::-webkit-scrollbar{
+    width: auto;
+}
+
+
+.container__item{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(212, 212, 212, 0.411);
+    
+}
+.container__item img{
+    width: 200px;
+    border-radius: 20px;
+    
+}
+.button1{
+    width: 85px;
+    justify-self: center;
+    align-items: center;
+    margin: 0 auto;
+    margin: 0 6px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.button1:hover{
+    cursor: pointer;
+}
+
+.button__buy{
+    background-color:  rgb(255, 81, 0);
+    
+}
+.button__view{
+    background-color: rgba(120, 120, 120, 0.411);
+
+}
+.button__buy:hover{
+    background-color: aqua;
+
+}
+.button__view:hover{
+    background-color: rgba(235, 235, 235, 0.411);
+}
+.footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.icon__facebook{
+    width: 30px;
+
+    height: 30px;
+}
+.icon__zalo{
+    width: 30px;
+    height: 30px;
+}
+.item__text{
+    display: flex;
+}
+.button__text1{
+
+}
